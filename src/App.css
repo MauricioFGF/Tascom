@@ -1,38 +1,207 @@
-.App {
+*{
+  margin: 0;
+  font-family:sans-serif,Roboto,Arial;
+  text-decoration: none;
+}
+
+
+html {
+  scroll-behavior:smooth;
+}
+nav{
+  background-color: #22293d;
+  display: flex;
+}
+
+nav a{
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 30px;
+  margin: 20px 0 0 60px;
+  text-decoration: none;
+  color:white;
+}
+
+nav a:hover{
+  background-color: #3b4663;
+}
+
+.global-div{
+  display: flex; 
+  flex-direction: column;
+  background-color: #22293d; 
+  background-image: url(./img/virus.jpg);
+  background-repeat: no-repeat;
+  height: 620px;
+  background-size: cover;
+}
+
+
+
+.tittle{
+  width: 600px;
+  height: 100vw;
+  padding: 60px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+
+}
+
+.scroll{
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+#dados{
+  background-image: url(./img/homem.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  background-color: rgb(253, 250, 242);
+  color: #1b1f23;
+  padding: 50px 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dados-mundo{
+  background-color: white;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 40px 40px 0 20px;
+  border: 0.2px solid rgb(0,0,0,0.2);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.opcoes{
+  text-align: left;
+  margin: 25px;;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#paises{
+  margin: 50px 200px;
+  color: black  ;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+}
+
+.menu-paises{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center ;
+  background-color:white;
+  margin-top: 20px;
+  width: 600px;
+  height: 130px;
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+  border-radius: 10px;
+
+}
+
+.pais{
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.651);
+  border-radius: 10px;
+  font-weight:600;
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  background-color:white ;
+  color: #161a25;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.pais:hover{
+  border-bottom: 3px solid rgba(0, 0, 0, 0.795);
+  border-right: 3px solid rgba(0, 0, 0, 0.795);
+  width: 105px;
+  height: 105px;
+}
+
+.pais p{
+  margin-top:15px;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  text-align: center;
+  background-color: #000000;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.div-cartao-paises{
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.cartao-paises{
+  box-shadow: 9px 8px 3px 1px rgba(0, 0, 0, 0.733);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  padding-top: 30px;
+  width: 60vw;
+  height: 260px;
+  background-color:#000000;
+  margin-right: 50px;
+  
+}
+
+.cartao-paises h1{margin-bottom: 50px;}
+
+@media(max-width:660px){
+  nav{
+    align-items: center;
+    justify-content: center;
+    }
+  *{align-items: center;}
+  .scroll img{display: none;}
+  .global-div{
+    height: 300px; 
+    background-image: none;}
+  .tittle{
+    width: 200px;
+    font-size: 15px;
+    padding: 10px;
   }
-  to {
-    transform: rotate(360deg);
+  #dados{ display:flex; align-items: center; justify-content: center;}
+  .dados-mundo{
+    width:300px;
+    font-size: 10px;
   }
+  .cartao-paises{ font-size: 12px;}
+  .menu-paises{
+    width: 400px;
+    height: 80px;
+  }
+  #paises h1{
+    font-size: 25px;
+    width: 150px;
+  }
+  .pais{
+    width: 60px;
+    height: 60px;
+    font-size: 10px;
+  }
+  .pais p{margin: 4px;}
+  .pais:hover{width: 55px; height: 55px;}
+  .pais img{width: 30px;}
 }
