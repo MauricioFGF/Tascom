@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Tascom/static/css/main.39561893.chunk.css",
+    "main.js": "/Tascom/static/js/main.b366f752.chunk.js",
+    "main.js.map": "/Tascom/static/js/main.b366f752.chunk.js.map",
+    "runtime-main.js": "/Tascom/static/js/runtime-main.f8626277.js",
+    "runtime-main.js.map": "/Tascom/static/js/runtime-main.f8626277.js.map",
+    "static/js/2.9f30c930.chunk.js": "/Tascom/static/js/2.9f30c930.chunk.js",
+    "static/js/2.9f30c930.chunk.js.map": "/Tascom/static/js/2.9f30c930.chunk.js.map",
+    "index.html": "/Tascom/index.html",
+    "static/css/main.39561893.chunk.css.map": "/Tascom/static/css/main.39561893.chunk.css.map",
+    "static/js/2.9f30c930.chunk.js.LICENSE.txt": "/Tascom/static/js/2.9f30c930.chunk.js.LICENSE.txt",
+    "static/media/baixo.8ae0f394.gif": "/Tascom/static/media/baixo.8ae0f394.gif",
+    "static/media/App.css": "/Tascom/static/media/virus.aca3252c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8626277.js",
+    "static/js/2.9f30c930.chunk.js",
+    "static/css/main.39561893.chunk.css",
+    "static/js/main.b366f752.chunk.js"
+  ]
+}
